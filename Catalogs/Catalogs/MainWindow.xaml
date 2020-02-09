@@ -7,6 +7,94 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="1" Grid.Row="1" MouseDown="Imageaa_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="3" Grid.Row="1" MouseDown="Imageca_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="2" Grid.Row="1" MouseDown="Imageba_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="10" Grid.Row="1" MouseDown="Imageja_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="9" Grid.Row="1" MouseDown="Imageia_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="8" Grid.Row="1" MouseDown="Imageha_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="7" Grid.Row="1" MouseDown="Imagega_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="6" Grid.Row="1" MouseDown="Imagefa_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="5" Grid.Row="1" MouseDown="Imageea_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="4" Grid.Row="1" MouseDown="Imageda_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="1" Grid.Row="2" MouseDown="Imageab_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="2" Grid.Row="2" MouseDown="Imagebb_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="3" Grid.Row="2" MouseDown="Imagecb_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="10" Grid.Row="2" MouseDown="Imagejb_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="9" Grid.Row="2" MouseDown="Imageib_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="8" Grid.Row="2" MouseDown="Imagehb_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="7" Grid.Row="2" MouseDown="Imagegb_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="6" Grid.Row="2" MouseDown="Imagefb_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="5" Grid.Row="2" MouseDown="Imageeb_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="4" Grid.Row="2" MouseDown="Imagedb_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="1" Grid.Row="3" MouseDown="Imageac_MouseDown"/>
+        <Image Margin="9,10,12,10" Source="images.jpg" Stretch="Fill" Grid.Column="3" Grid.Row="3" MouseDown="Imagecc_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="2" Grid.Row="3" MouseDown="Imagebc_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="10" Grid.Row="3" MouseDown="Imagejc_MouseDown"/>
+        <Image Margin="9,10,12,10" Source="images.jpg" Stretch="Fill" Grid.Column="9" Grid.Row="3" MouseDown="Imageic_MouseDown"/>
+        <Image Margin="9,10,12,10" Source="images.jpg" Stretch="Fill" Grid.Column="8" Grid.Row="3" MouseDown="Imagehc_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="7" Grid.Row="3" MouseDown="Imagegc_MouseDown"/>
+        <Image Margin="9,10,12,10" Source="images.jpg" Stretch="Fill" Grid.Column="6" Grid.Row="3" MouseDown="Imagefc_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="5" Grid.Row="3" MouseDown="Imageec_MouseDown"/>
+        <Image Margin="9,10,12,10" Source="images.jpg" Stretch="Fill" Grid.Column="4" Grid.Row="3" MouseDown="Imagedc_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="1" Grid.Row="4" MouseDown="Imagead_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="3" Grid.Row="4" MouseDown="Imagecd_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="2" Grid.Row="4" MouseDown="Imagebd_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="10" Grid.Row="4" MouseDown="Imagejd_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="9" Grid.Row="4" MouseDown="Imageid_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="8" Grid.Row="4" MouseDown="Imagehd_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="7" Grid.Row="4" MouseDown="Imagegd_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="6" Grid.Row="4" MouseDown="Imagefd_MouseDown"/>
+        <Image Margin="11,10,10,10" Source="images.jpg" Stretch="Fill" Grid.Column="5" Grid.Row="4" MouseDown="Imageed_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="4" Grid.Row="4" MouseDown="Imagedd_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="1" Grid.Row="5" MouseDown="Imageae_MouseDown"/>
+        <Image Margin="9,10,12,10" Source="images.jpg" Stretch="Fill" Grid.Column="3" Grid.Row="5" MouseDown="Imagece_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="2" Grid.Row="5" MouseDown="Imagebe_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="10" Grid.Row="5" MouseDown="Imageje_MouseDown"/>
+        <Image Margin="9,10,12,10" Source="images.jpg" Stretch="Fill" Grid.Column="9" Grid.Row="5" MouseDown="Imageie_MouseDown"/>
+        <Image Margin="9,10,12,10" Source="images.jpg" Stretch="Fill" Grid.Column="8" Grid.Row="5" MouseDown="Imagehe_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="7" Grid.Row="5" MouseDown="Imagege_MouseDown"/>
+        <Image Margin="9,10,12,10" Source="images.jpg" Stretch="Fill" Grid.Column="6" Grid.Row="5" MouseDown="Imagefe_MouseDown"/>
+        <Image Margin="10,10,11,10" Source="images.jpg" Stretch="Fill" Grid.Column="5" Grid.Row="5" MouseDown="Imageee_MouseDown"/>
+        <Image Margin="9,10,12,10" Source="images.jpg" Stretch="Fill" Grid.Column="4" Grid.Row="5" MouseDown="Imagede_MouseDown"/>
+        <TextBlock Text="A" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Grid.Column="1" Margin="29,17,24,16"/>
+        <TextBlock Text="B" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Margin="28,17,25,16" Grid.Column="2"/>
+        <TextBlock Text="I" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Grid.Column="9" Margin="26,17,27,16"/>
+        <TextBlock Text="H" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Grid.Column="8" Margin="29,17,24,16"/>
+        <TextBlock Text="G" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Grid.Column="7" Margin="30,17,23,16"/>
+        <TextBlock Text="F" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Grid.Column="6" Margin="29,17,24,16"/>
+        <TextBlock Text="E" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Grid.Column="5" Margin="28,17,25,16"/>
+        <TextBlock Text="D" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Grid.Column="4" Margin="28,17,25,16"/>
+        <TextBlock Text="C" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Grid.Column="3" Margin="29,17,24,16"/>
+        <TextBlock Text="J" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Grid.Column="10" Margin="29,17,24,16"/>
+        <TextBlock Text="e" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Margin="25,10,28,23" Grid.Row="5"/>
+        <TextBlock Text="d" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Margin="25,10,28,23" Grid.Row="4"/>
+        <TextBlock Text="c" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Margin="25,10,28,23" Grid.Row="3"/>
+        <TextBlock Text="b" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Margin="25,10,28,23" Grid.Row="2"/>
+        <TextBlock Text="a" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Margin="25,10,28,23" Grid.Row="1"/>
     </Grid>
+
 </Window>
